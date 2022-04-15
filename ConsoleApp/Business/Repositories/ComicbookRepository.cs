@@ -1,6 +1,8 @@
-﻿using DataAccess.Interfaces;
+﻿using DataAccess;
+using DataAccess.Interfaces;
 using Entities.Models;
 using System;
+using System.Collections.Generic;
 
 namespace Business
 {
@@ -8,27 +10,28 @@ namespace Business
     {
         public bool Create(Comicbook entity)
         {
-            throw new NotImplementedException();
+            DataContext.Comicbooks.Add(entity);
         }
 
         public bool Delete(Comicbook entity)
         {
-            throw new NotImplementedException();
+            DataContext.Comicbooks.Remove(entity);
         }
 
-        public System.Collections.Generic.List<Comicbook> GetAll(Predicate<string> filter = null)
+        public List<Comicbook> GetAll(Predicate<Comicbook> filter = null)
         {
-            throw new NotImplementedException();
+            return DataContext.Comicbooks.FindAll(filter);
         }
 
-        public Comicbook GetOne(Predicate<int> filter = null)
+        public Comicbook GetOne(Predicate<Comicbook> filter = null)
         {
-            throw new NotImplementedException();
+            return DataContext.Comicbooks.Find(filter);
         }
 
         public bool Update(Comicbook entity)
         {
-            throw new NotImplementedException();
+            Comicbook isExists = GetOne(c => c.Name == entity.Name);
+            isExists = entity;
         }
     }
 }
