@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    public class Comics: IEntity
+    public class Comicbook: IEntity
     {
         private static int _id;
         public readonly int Id;
