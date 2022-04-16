@@ -1,10 +1,8 @@
-﻿using DataAccess.Interfaces;
+﻿using DataAccess;
+using DataAccess.Interfaces;
 using Entities.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Repositories
 {
@@ -12,27 +10,32 @@ namespace Business.Repositories
     {
         public bool Create(Library entity)
         {
-            throw new NotImplementedException();
+            DataContext.Libraries.Add(entity);
+            return true;
         }
 
         public bool Delete(Library entity)
         {
-            throw new NotImplementedException();
+            DataContext.Libraries.Remove(entity);
+            return true;
         }
 
         public List<Library> GetAll(Predicate<Library> filter = null)
         {
-            throw new NotImplementedException();
+            return DataContext.Libraries.FindAll(filter);
         }
 
         public Library GetOne(Predicate<Library> filter = null)
         {
-            throw new NotImplementedException();
+            return filter == null ? DataContext.Libraries[0] :
+                DataContext.Libraries.Find(filter);
         }
 
         public bool Update(Library entity)
         {
-            throw new NotImplementedException();
+            Library isExists = GetOne(c => c.Name == entity.Name);
+            isExists = entity;
+            return true;
         }
     }
 }
