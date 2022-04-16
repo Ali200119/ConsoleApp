@@ -1,0 +1,5 @@
+C:\Users\talib\Desktop\Homework\ConsoleApp\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talib\Desktop\Homework\ConsoleApp\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\talib\Desktop\Homework\ConsoleApp\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache

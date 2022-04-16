@@ -1,0 +1,16 @@
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.exe
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.deps.json
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.runtimeconfig.json
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.runtimeconfig.dev.json
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\ComicbooksApp.pdb
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.csproj.AssemblyReference.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.AssemblyInfoInputs.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.AssemblyInfo.cs
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.csproj.CoreCompileInputs.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\refint\ComicbooksApp.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.pdb
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.genruntimeconfig.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ref\ComicbooksApp.dll

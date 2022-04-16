@@ -10,12 +10,14 @@ namespace Business
     {
         public bool Create(Comicbook entity)
         {
-            DataContext.Comicbooks.Add(entity);
+                DataContext.Comicbooks.Add(entity);
+                return true;
         }
 
         public bool Delete(Comicbook entity)
         {
             DataContext.Comicbooks.Remove(entity);
+            return true;
         }
 
         public List<Comicbook> GetAll(Predicate<Comicbook> filter = null)
@@ -32,6 +34,7 @@ namespace Business
         {
             Comicbook isExists = GetOne(c => c.Name == entity.Name);
             isExists = entity;
+            return true;
         }
     }
 }
