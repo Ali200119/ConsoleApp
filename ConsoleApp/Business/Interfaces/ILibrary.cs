@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace Business.Interfaces
 {
     public interface ILibrary
     {
+        Library Create(Library library);
+        Library Update(int Id, Library library);
+        Library Delete(int Id);
+        Library GetLibrary(string name);
     }
 }
