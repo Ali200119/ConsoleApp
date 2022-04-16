@@ -27,7 +27,8 @@ namespace Business
 
         public Comicbook GetOne(Predicate<Comicbook> filter = null)
         {
-            return DataContext.Comicbooks.Find(filter);
+            return filter == null ? DataContext.Comicbooks[0] :
+                DataContext.Comicbooks.Find(filter);
         }
 
         public bool Update(Comicbook entity)
