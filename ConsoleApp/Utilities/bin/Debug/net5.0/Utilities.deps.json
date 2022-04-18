@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "ComicbooksApp/1.0.0": {
-        "dependencies": {
-          "Utilities": "1.0.0"
-        },
-        "runtime": {
-          "ComicbooksApp.dll": {}
-        }
-      },
       "Utilities/1.0.0": {
         "runtime": {
           "Utilities.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "ComicbooksApp/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,

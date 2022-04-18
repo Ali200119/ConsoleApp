@@ -14,3 +14,6 @@ C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\refint
 C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.pdb
 C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.genruntimeconfig.cache
 C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ref\ComicbooksApp.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\Utilities.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\bin\Debug\net5.0\Utilities.pdb
+C:\Users\talib\Desktop\Homework\ConsoleApp\ComicbooksApp\obj\Debug\net5.0\ComicbooksApp.csproj.CopyComplete

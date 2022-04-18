@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicbooksApp", "Comicbooks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A7A56621-42AD-495A-9F31-635169A4E5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1D852B02-6717-4F5E-8E84-EA2E8339E238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1D852B02-6717-4F5E-8E84-EA2E8339E238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{D348ED44-A3B6-4BA2-B1F5-058D5E8E9EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{D348ED44-A3B6-4BA2-B1F5-058D5E8E9EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{E074EA75-CB06-4904-9817-016F488F6BA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D348ED44-A3B6-4BA2-B1F5-058D5E8E9EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D348ED44-A3B6-4BA2-B1F5-058D5E8E9EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D348ED44-A3B6-4BA2-B1F5-058D5E8E9EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E074EA75-CB06-4904-9817-016F488F6BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E074EA75-CB06-4904-9817-016F488F6BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E074EA75-CB06-4904-9817-016F488F6BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E074EA75-CB06-4904-9817-016F488F6BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

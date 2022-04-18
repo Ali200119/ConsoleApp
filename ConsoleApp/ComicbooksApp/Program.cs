@@ -1,4 +1,5 @@
 ﻿using System;
+using Utilities.Helpler;
 
 namespace ComicbooksApp
 {
@@ -7,11 +8,8 @@ namespace ComicbooksApp
         static void Main(string[] args)
         {
             Console.Write("-------Welcome to your ");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("Comicbook ");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Library");
-            Console.ResetColor();
+            Extention.TextColorWithoutL(ConsoleColor.Red, "Comicbook ");
+            Extention.TextColorWithoutL(ConsoleColor.Blue, "Library");
             Console.WriteLine("!-------");
         }
     }

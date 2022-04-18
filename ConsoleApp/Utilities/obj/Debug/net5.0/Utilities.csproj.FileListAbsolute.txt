@@ -1,0 +1,12 @@
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\bin\Debug\net5.0\Utilities.deps.json
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\bin\Debug\net5.0\Utilities.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\bin\Debug\net5.0\Utilities.pdb
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfo.cs
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\refint\Utilities.dll
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\Utilities.pdb
+C:\Users\talib\Desktop\Homework\ConsoleApp\Utilities\obj\Debug\net5.0\ref\Utilities.dll
