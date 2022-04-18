@@ -4,9 +4,9 @@ using Entities.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Business.Repositories
+namespace DataAccess.Repositories
 {
-    internal class LibraryRepository : IRepository<Library>
+    public class LibraryRepository : IRepository<Library>
     {
         public bool Create(Library entity)
         {

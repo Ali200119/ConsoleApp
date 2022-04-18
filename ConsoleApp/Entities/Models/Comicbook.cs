@@ -9,10 +9,10 @@ namespace Entities.Models
 {
     public class Comicbook: IEntity
     {
-        private static int _id;
-        public readonly int Id;
+        public int Id;
         public string Name { get; set; }
         public int PageCount { get; set; }
         public int Price { get; set; }
+        public string Genre { get; set; }
     }
 }

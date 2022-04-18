@@ -9,8 +9,7 @@ namespace Entities.Models
 {
     public class Library: IEntity
     {
-        private static int _id;
-        public readonly int Id;
+        public  int Id;
         public string Name { get; set; }
         public int ComicsLimit { get; set; }
     }

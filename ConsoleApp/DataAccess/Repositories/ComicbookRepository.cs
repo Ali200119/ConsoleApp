@@ -4,14 +4,14 @@ using Entities.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Business
+namespace DataAccess.Repositories
 {
     public class ComicbookRepository : IRepository<Comicbook>
     {
         public bool Create(Comicbook entity)
         {
-                DataContext.Comicbooks.Add(entity);
-                return true;
+            DataContext.Comicbooks.Add(entity);
+            return true;
         }
 
         public bool Delete(Comicbook entity)

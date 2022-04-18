@@ -1,12 +1,46 @@
-﻿using System;
+﻿using Business.Interfaces;
+using Entities.Models;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using DataAccess.Repositories;
 
 namespace Business.Services
 {
-    internal class LibraryService
+    public class LibraryService : ILibrary
     {
+        public static int Count { get; set; }
+        private LibraryRepository LibraryRepository;
+        
+
+        public LibraryService(LibraryRepository libraryRepository)
+        {
+            LibraryRepository = libraryRepository;
+        }
+
+
+
+        public Library Create(Library library)
+        {
+            library.Id = Count;
+            LibraryRepository.Create(library);
+            Count++;
+            return library;
+        }
+
+        public Library Delete(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Library GetLibrary(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Library Update(int Id, Library library)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
