@@ -11,6 +11,6 @@ namespace Entities.Models
     {
         public  int Id;
         public string Name { get; set; }
-        public int ComicsLimit { get; set; }
+        public int ComicbookLimit { get; set; }
     }
 }
