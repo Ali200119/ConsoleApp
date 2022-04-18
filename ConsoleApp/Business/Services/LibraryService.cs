@@ -13,9 +13,9 @@ namespace Business.Services
         private LibraryRepository LibraryRepository;
         
 
-        public LibraryService(LibraryRepository libraryRepository)
+        public LibraryService()
         {
-            LibraryRepository = libraryRepository;
+            LibraryRepository = new LibraryRepository();
         }
 
 

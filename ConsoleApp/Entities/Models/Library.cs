@@ -9,7 +9,7 @@ namespace Entities.Models
 {
     public class Library: IEntity
     {
-        public  int Id;
+        public int Id;
         public string Name { get; set; }
         public int ComicbookLimit { get; set; }
     }
