@@ -22,7 +22,7 @@ namespace DataAccess.Repositories
 
         public List<Library> GetAll(Predicate<Library> filter = null)
         {
-            return DataContext.Libraries.FindAll(filter);
+            return filter == null ? null : DataContext.Libraries.FindAll(filter);
         }
 
         public Library GetOne(Predicate<Library> filter = null)

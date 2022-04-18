@@ -35,12 +35,17 @@ namespace Business.Services
 
         public Library GetLibrary(string name)
         {
-            throw new NotImplementedException();
+            return LibraryRepository.GetOne();
         }
 
         public Library Update(int Id, Library library)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Library> GetAll()
+        {
+            return LibraryRepository.GetAll();
         }
     }
 }
