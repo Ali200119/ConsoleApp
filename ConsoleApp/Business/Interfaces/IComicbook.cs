@@ -13,5 +13,7 @@ namespace Business.Interfaces
         Comicbook Update(int Id, Comicbook comicbook);
         Comicbook Delete(int Id);
         Comicbook GetComicbook(string name);
+        Comicbook GetComicbook(int id);
+        List<Comicbook> GetAll();
     }
 }

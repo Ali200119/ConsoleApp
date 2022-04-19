@@ -33,19 +33,24 @@ namespace Business.Services
             throw new NotImplementedException();
         }
 
-        public Library GetLibrary(string name)
-        {
-            return LibraryRepository.GetOne();
-        }
-
         public Library Update(int Id, Library library)
         {
             throw new NotImplementedException();
         }
 
+        public Library GetLibrary(string name)
+        {
+            return LibraryRepository.GetOne();
+        }
+
         public List<Library> GetAll()
         {
             return LibraryRepository.GetAll();
+        }
+
+        public Library GetLibrary(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

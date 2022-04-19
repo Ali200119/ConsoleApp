@@ -13,6 +13,7 @@ namespace Business.Interfaces
         Library Update(int Id, Library library);
         Library Delete(int Id);
         Library GetLibrary(string name);
+        Library GetLibrary(int id);
         List<Library> GetAll();
     }
 }

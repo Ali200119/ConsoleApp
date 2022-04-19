@@ -22,7 +22,8 @@ namespace DataAccess.Repositories
 
         public List<Comicbook> GetAll(Predicate<Comicbook> filter = null)
         {
-            return DataContext.Comicbooks.FindAll(filter);
+            return filter == null ? DataContext.Comicbooks :
+                DataContext.Comicbooks.FindAll(filter);
         }
 
         public Comicbook GetOne(Predicate<Comicbook> filter = null)

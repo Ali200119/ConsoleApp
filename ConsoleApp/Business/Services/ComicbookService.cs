@@ -9,9 +9,21 @@ namespace Business.Services
 {
     public class ComicbookService : IComicbook
     {
+        public static int Count { get; set; }
+        private ComicbookRepository ComicbookRepository;
+
+
+        public ComicbookService()
+        {
+            ComicbookRepository = new ComicbookRepository();
+        }
+
         public Comicbook Create(Comicbook comicbook)
         {
-            throw new NotImplementedException();
+            comicbook.Id = Count;
+            ComicbookRepository.Create(comicbook);
+            Count++;
+            return comicbook;
         }
 
         public Comicbook Delete(int Id)
@@ -21,7 +33,7 @@ namespace Business.Services
 
         public Comicbook GetComicbook(string name)
         {
-            throw new NotImplementedException();
+            return ComicbookRepository.GetOne();
         }
 
         public Comicbook Update(int Id, Comicbook comicbook)
